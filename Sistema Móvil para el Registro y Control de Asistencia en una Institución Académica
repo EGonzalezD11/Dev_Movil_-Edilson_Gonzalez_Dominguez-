@@ -1,0 +1,95 @@
+Sistema Móvil para el Registro y Control de Asistencia en una Institución Académica
+
+1.	Objetivos
+
+Objetivo general
+Desarrollar una aplicación móvil para una institución académica que permita gestionar y controlar la asistencia de los estudiantes, facilitando el registro, consulta y seguimiento de la asistencia por parte de maestros, directores y administradores, mediante un sistema seguro y organizado.
+
+Objetivos específicos
+1.	Registrar la asistencia de los estudiantes de manera rápida y sencilla desde la aplicación móvil. 
+2.	Permitir a los maestros registrar si un estudiante asistió, llegó tarde o estuvo ausente en una determinada clase. 
+3.	Permitir a los estudiantes consultar su historial de asistencia y conocer sus registros. 
+4.	Proporcionar a los directores o coordinadores herramientas para consultar y supervisar la asistencia de los estudiantes y grupos. 
+5.	Crear un superadministrador encargado de gestionar usuarios, permisos, carreras, grupos, materias y demás información general de la institución. 
+6.	Generar reportes de asistencia que permitan identificar estudiantes con un alto número de faltas o problemas de asistencia. 
+7.	Implementar diferentes niveles de acceso, de manera que cada usuario pueda acceder únicamente a las funciones que le correspondan. 
+8.	Mantener segura la información de estudiantes, maestros y personal de la institución mediante autenticación y control de permisos. 
+
+
+
+
+2. Requisitos funcionales
+Los requisitos funcionales describen qué debe hacer la aplicación.
+
+RF-01. Registro e inicio de sesión
+El sistema deberá permitir que los usuarios inicien sesión utilizando sus credenciales institucionales.
+Los usuarios podrán pertenecer a diferentes roles:
+•	Superadministrador 
+•	Director/Coordinador 
+•	Maestro 
+•	Estudiante 
+
+RF-03 — Pantalla principal del estudiante
+Después de iniciar sesión, el estudiante deberá visualizar un dashboard con información resumida, por ejemplo:
+•	Nombre del estudiante. 
+•	Foto de perfil. 
+•	Porcentaje general de asistencia. 
+•	Número de asistencias. 
+•	Número de faltas. 
+•	Número de retardos. 
+•	Acceso al historial.
+
+
+
+
+
+
+
+RF-03. Gestión de estudiantes
+El sistema deberá permitir registrar información básica de los estudiantes, como:
+•	Nombre completo. 
+•	Matrícula o número de estudiante. 
+•	Carrera o programa académico. 
+•	Semestre/grado. 
+•	Grupo. 
+•	Estado del estudiante. 
+
+RF-04. Gestión de maestros
+El sistema deberá permitir registrar y administrar información de los maestros, incluyendo:
+•	Nombre completo. 
+•	Número de empleado. 
+•	Materias asignadas. 
+•	Grupos asignados. 
+•	Horarios. 
+
+RF-05. Gestión de grupos y materias
+El superadministrador o usuario autorizado deberá poder:
+•	Crear grupos. 
+•	Crear materias. 
+•	Asignar maestros a materias. 
+•	Asignar estudiantes a grupos. 
+•	Establecer horarios de clases. 
+
+
+
+
+RF-06. Consulta de asistencia del estudiante
+El estudiante deberá poder consultar:
+•	Asistencias. 
+•	Faltas. 
+•	Retardos. 
+•	Faltas justificadas. 
+•	Porcentaje de asistencia. 
+•	Historial por materia. 
+
+RF-07. Consulta para maestros
+El maestro deberá poder consultar el historial de asistencia de los estudiantes de los grupos y materias que tenga asignados.
+También podrá consultar información como:
+•	Total de asistencias. 
+•	Total de faltas. 
+•	Total de retardos. 
+•	Porcentaje de asistencia. 
+
+
+
+
